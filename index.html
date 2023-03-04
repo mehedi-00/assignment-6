@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe Hub</title>
+    <!-- google fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- google fontAwesome link -->
+    <script src="https://kit.fontawesome.com/1e2db6be37.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header part starts -->
+    <header>
+        <div class="flex justify-center mt-12">
+            <div class="text-center">
+                <h2 class="font-semibold text-gray-900 text-5xl ">AI Universe Hub</h2>
+                <button id="shortByDate" class=" mt-8 px-7 py-5 rounded-xl font-semibold text-white bg-red-500">Sort By Date</button>
+                
+        </div>
+        <div id="loader" class="fixed top-2/4 left-2/4 z-10"><img src="./xm-loader-xcelerate-media.gif" alt=""></div>
+    </header>
+    <!-- header part ends -->
+    <!-- main part starts -->
+    <main class="mt-6 mx-8">
+
+        <!-- card section here -->
+        <section>
+            <div id="card-container" class="card-container grid md:grid-cols-3 gap-4">
+
+            </div>
+            <div class="flex justify-center">
+                <button id="seeMore" class=" hidden mt-8 px-7 py-5 rounded-xl font-semibold text-white bg-red-500">See More</button>
+            </div>
+        </section>
+
+        <!-- modal here -->
+        <!-- The button to open modal -->
+
+
+
+<input type="checkbox" id="my-modal-3" class="modal-toggle" />
+<div class="modal">
+  <div id="modal-body" class="w-10/12 mx-auto  bg-white  relative grid md:grid-cols-2 gap-4 p-10">
+
+  </div>
+</div>
+    
+
+    </main>
+    <!-- main part ends -->
+
+    <!-- script File here -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
